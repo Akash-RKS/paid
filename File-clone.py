@@ -4,15 +4,6 @@
 
 import requests,bs4,json,os,sys,random,datetime,time,re,subprocess
 
-try:
-
-	import rich
-	
-	except ImportError:
-	
-	os.system('pip install rich')
-
-	time.sleep(1)
 
 	try:
 
